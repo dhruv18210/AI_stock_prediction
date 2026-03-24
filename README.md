@@ -46,3 +46,28 @@ stock-prediction/
 ├── requirements.txt       # Dependencies
 └── README.md              # Project documentation
 ```
+
+---
+
+## ⚙️ Installation Guide (Step-by-Step)
+
+Follow these steps to run this project on **another laptop or PC**:
+
+---
+
+### ✅ Step 1: Install Python
+
+- Download Python (3.9 or higher recommended)
+- Install from: https://www.python.org/downloads/
+- During installation, check ✅ **"Add Python to PATH"**
+
+---
+
+### ✅ Step 2: Clone the Repository
+
+Open terminal / command prompt:
+
+```bash
+git clone https://github.com/your-username/stock-prediction.git
+cd stock-prediction
+```
