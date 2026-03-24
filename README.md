@@ -84,6 +84,69 @@ Windows:
 ```bash
 venv\Scripts\activate
 ```
+Mac/Linux:
+```bash
+source venv/bin/activate
+```
+
 ---
 
-###
+###✅ Step 4: Install Required Libraries
+
+Create a requirements.txt file (or use below):
+```bash
+streamlit
+yfinance
+pandas
+numpy
+statsmodels
+prophet
+scikit-learn
+tensorflow
+plotly
+google-generativeai
+```
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+###✅ Step 5: Setup Gemini API Key
+1. Go to Google AI Studio
+2. Generate your Gemini API Key
+
+---
+
+###✅ Step 6: Add API Key to Streamlit Secrets
+Create folder:
+```bash
+.streamlit/
+```
+Inside it, create file:
+```bash
+secrets.toml
+```
+Add this:
+```bash
+GEMINI_API_KEY = "your_api_key_here"
+```
+
+---
+
+###✅ Step 7: Run the Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+###✅ Step 8: Open in Browser
+
+Streamlit will automatically open:
+```bash
+http://localhost:8501
+```
+
