@@ -38,3 +38,9 @@ It also generates **AI-based BUY / SELL / HOLD signals** with confidence levels.
 ---
 
 ## 📂 Project Structure
+stock-prediction/
+│── app.py # Main Streamlit app
+│── requirements.txt # Dependencies
+│── README.md # Project documentation
+│── .streamlit/
+│ └── secrets.toml # API keys
