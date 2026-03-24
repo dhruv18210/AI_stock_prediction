@@ -71,3 +71,19 @@ Open terminal / command prompt:
 git clone https://github.com/your-username/stock-prediction.git
 cd stock-prediction
 ```
+
+---
+
+### ✅ Step 3: Create Virtual Environment (Recommended)
+```bash
+python -m venv venv
+```
+Activate it:
+
+Windows:
+```bash
+venv\Scripts\activate
+```
+---
+
+###
